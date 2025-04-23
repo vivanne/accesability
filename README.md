@@ -114,7 +114,7 @@ Het tabben per zin was een succes. Het voelde natuurlijk aan om te markeren per 
 
 ![Screenshot zinmarkering](/Scherm­afbeelding%202025-04-23%20om%2015.51.32.png)
 
-Verder zou hij wel misschien meerdere kleuren willen gebruiken, en dus een aanpasbare markering hebben. Ook vind hij het fijn om wel een menu te hebben waar je fontsize, weight, lineheight en body margin aan kan passen. <span style="background-color: #FF69B4; color: #fff">Hij benoemde ook dat vooral de leessnelheid heel belangrijk is om aan te passen. De meeste screenreaders gaan van nature wat langzaam, en het sneller kunnen zetten versneld zijn leesproces.</span> Ik moet nog even kijken of het mij lukt om dit te implementeren ivm tijd en gezien ik niet ga werken met een custom google screenreader, maar gewoon die van apple. Font size etc moet zeker wel kunnen lukken. Hiermee ga ik deze week nog aan de slag.
+Verder zou hij wel misschien meerdere kleuren willen gebruiken, en dus een aanpasbare markering hebben. Ook vind hij het fijn om wel een menu te hebben waar je fontsize, weight, lineheight en body margin aan kan passen. 🔴 **Hij benoemde ook dat vooral de leessnelheid heel belangrijk is om aan te passen. De meeste screenreaders gaan van nature wat langzaam, en het sneller kunnen zetten versneld zijn leesproces.** 🔴 Ik moet nog even kijken of het mij lukt om dit te implementeren ivm tijd en gezien ik niet ga werken met een custom google screenreader, maar gewoon die van apple. Font size etc moet zeker wel kunnen lukken. Hiermee ga ik deze week nog aan de slag.
 
 ![Screenshot zinmarkering](/Scherm­afbeelding%202025-04-23%20om%2016.04.02.png)
 

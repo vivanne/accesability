@@ -1,8 +1,196 @@
+*:focus {
+    outline: 3px solid yellow; /* Maak de rand geel */
+    outline-offset: 2px; /* Optioneel: zet wat ruimte tussen de rand en het element */
+  }
+
 body {
     background-color: black;
-    color: white;
+    color: rgb(247, 249, 223);
     cursor: url('https://cdn.jsdelivr.net/gh/yourusername/yourrepo@latest/assets/cursor.png'), auto;
     margin: 20vmin;
+
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Maak het menu verborgen bij de start */
+/* #style-menu.hidden {
+    display: none;
+} */
+
+/* Stijl voor de menu */
+/* #style-menu {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 1000;
+} */
+/* 
+button#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: red;
+}
+
+#style-menu.hidden {
+    opacity: 0; 
+    visibility: hidden; 
+    transform: translateX(-100vw); 
+}
+
+
+#style-menu {
+    position: fixed;
+    height: 100vh;
+    right: 0px;
+
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+    transition: transform 0.3s ease; 
+    transform: translateX(-100%); 
+} */
+
+/* 
+#style-menu:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0); 
+} */
+
+#style-menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    border: 1px solid #ccc;
+    background: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+}
+
+#inhoudsopgave-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    border: 1px solid #ccc;
+    background: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+}
+
+/* .inhoudsopgave-menu */
+
+
+/* #inhoudsopgave-menu.hidden {
+    opacity: 0; 
+    visibility: hidden; 
+    transform: translateX(-100vw); 
+}
+
+
+#inhoudsopgave-menu {
+    position: fixed;
+    height: 100vh;
+    left: 0px;
+    width: 30vw;
+
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+
+    transition: transform 0.3s ease;
+    transform: translateX(-100%); 
+} */
+
+#style-menu label:focus {
+    outline: 3px solid rgb(255, 121, 255); 
+    outline-offset: 2px; 
+}
+
+#style-menu span:focus{
+    outline: 3px solid rgb(255, 121, 255);
+    outline-offset: 2px;
+}
+
+#style-menu input:focus {
+    outline: 3px solid rgb(255, 121, 255);
+    outline-offset: 2px;
+}
+
+#inhoudsopgave-menu > h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: black;
+}
+
+#inhoudsopgave-menu div h3 {
+    color: black !important;
+}
+
+#inhoudsopgave-menu ul li a{
+    color: black;
+}
+
+#inhoudsopgave-menu ul li a:focus {
+    outline: 3px solid rgb(255, 121, 255); 
+    outline-offset: 2px; 
+}
+
+
+/* #inhoudsopgave-menu:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+} */
+
+
+/* djlajsfkdjf lda */
+
+.font-buttons {
+    margin-bottom: 1rem;
+}
+
+.font-buttons label {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: black;
+}
+
+.font-buttons input[type="range"] {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.font-buttons span {
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 10px;
+    color: black;
+}
+
+/* Stijl voor de buttons in het menu */
+.font-buttons button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 18px;
 }
 
 nav ul {
@@ -15,7 +203,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: white;
+    /* color: rgb(250, 255, 184);; */
     text-decoration: none;
 }
 
@@ -37,6 +225,100 @@ p {
   button {
     padding: 0.5rem 1rem;
     margin-right: 0.5rem;
-    font-size: 1rem;
+font-size: 1rem;
     cursor: pointer;
   }
+
+  /* .pseudo-paragraph {
+    display: block;
+    margin-top: 1.5em;
+    line-height: 1.6;
+} */
+
+
+
+.notitie {
+    background: #f4f4f4;
+    padding: 1em;
+    color: black;
+    margin: 1.5em 0;
+    border-left: 4px solid #888;
+    /* font-style: italic; */
+
+    white-space: pre-wrap;
+}
+
+.color-menu {
+    position: absolute;
+    display: flex;
+    gap: 0.5em;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 9999;
+    outline: none;
+}
+
+.color-option {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.color-option:focus {
+    outline: none;
+    border-color: black;
+}
+
+/* Voorbeeldkleuren */
+.color-option.red { background: rgb(255, 141, 141); }
+.color-option.yellow { background: yellow; }
+.color-option.green { background: rgb(65, 252, 65); }
+.color-option.blue { background: rgb(94, 207, 255); }
+.color-option.purple { background: rgb(255, 121, 255); }
+
+/* span.highlighted {
+    color: black;
+} */
+
+.color-option.selected {
+    border-color: #000;
+}
+
+.inline-input {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 1.5em 0;
+    padding: 10px 14px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none; /* of "none" als je niet wilt dat mensen 'm groter maken */
+    min-height: 4em;
+    line-height: 1.5;
+  }
+
+
+  /* .notitie-wrapper {
+    margin-bottom: 1.5em;
+  } */
+  
+  .notitie-label {
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 0.25em;
+    color: white;
+  }
+
+
+  .hidden {
+    display: none;
+}
+
+
+  

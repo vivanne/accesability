@@ -102,13 +102,14 @@ Ik had nog wat moeite met het echt vormen van een idee. Waar moest ik beginnen. 
 - [x] Toetscombinaties bedenken en toevoegen
 - [x] Js, tabben per zin
 - [x] stijl menu bijvoegen
+- [x] to do lijst volgende week na meeting
 
 **Gebruiker getest?**
 
 - [x] Ja
 - [ ] Nee
 
-**Feedback gebruiker:**
+**Feedback Roger:**
 
 Het tabben per zin was een succes. Het voelde natuurlijk aan om te markeren per zin (net als vroeger in een schrift met een stabilo).
 
@@ -118,11 +119,16 @@ Verder zou hij wel misschien meerdere kleuren willen gebruiken, en dus een aanpa
 
 ![Screenshot zinmarkering](/Scherm­afbeelding%202025-04-23%20om%2016.04.02.png)
 
+Ook moet ik verder werken aan de inhoudsopgave. Roger vroeg zich af hoe hij makkelijk kon navigeren. Dit had ik nog niet uitgebreid uitgewerkt. Ook was hij bij veel mensen enthausiast over het notities maken zelf. Dit wil ik ook gaan implementeren.
+
 ...
 
 **Aanpassingen n.a.v. feedback:**
 
-<!-- Wat heb je aangepast op basis van de test? -->
+- Ik ga de inhoudsopgave ook met een shortcut bereikbaar maken
+- ik ga werken met de toetsen f en j om het universeel makkelijk te maken om te gebruiken
+- Ik wil markeringen kunnen aanpassen qua kleur.
+- notities typen + shortcut
 
 ---
 
@@ -130,33 +136,28 @@ Verder zou hij wel misschien meerdere kleuren willen gebruiken, en dus een aanpa
 
 **To do:**
 
-- [ ] Navigatiemenu bouwen (per hoofdstuk)
-- [ ] Automatisch toevoegen van markeringen aan het juiste hoofdstuk
-- [ ] Notities toevoegen bij gemarkeerde tekst
-- [ ] Screenreader-ondersteuning verbeteren
+- [x] Navigatiemenu/inhoudsopgave in een apart vlak
+- [x] Notities toevoegen bij gemarkeerde tekst
+- [x] Automatisch toevoegen van markeringen aan het juiste hoofdstuk
+- [x] Verschillende kleuren voor het markeren
 
 **Gebruiker getest?**
 
-- [ ] Ja
+- [x] Ja
 - [ ] Nee
 
-**Feedback gebruiker:**
+**Feedback Roger:**
 
-<!-- Wat vond hij goed / wat werkte niet? -->
+Het ging nog een beetje moeilijk met het openen en sluiten van de menu's. dat kwam niet doordat het heel ingewikkeld was (toets f->links en j->rechts), maar omdat de tabbing nog wel fout ging. Dit is iets wat ik nog moet verbeteren. Het moment dat er een menu open stond kon hij nogsteeds overal doorheen tabben wat het moeiljk maakte om het menu ook echt te bereiken. Ik weet nog niet hoe maar ik ga dit wel verbeteren. Verder had hij geen moeite met het maken van markeringen, dit ging hem nogsteeds soepel af.
 
-...
+cmd m was nog moeiljk te vinden soms (ik denk dat dat op zn eigen laptop natuurlijk beter zou gaan, maar om het toch universeel goed bruikbaar te laten zijn ga ik de toets toch aanpassen naar iets anders.)
 
 **Aanpassingen n.a.v. feedback:**
 
-<!-- Wat heb je aangepast op basis van de test? -->
+het enige wat ik nog wil toevoegen is dus de tabbing soepel laten gaan. 🔴**En nog het handig opslaan van markeringen en notities.**🔴
+als ik tijd over zou hebben (dat denk ik niet, dan ga ik werken met een eigen screenreader die ik kan implementeren.)
 
-...
-
-**Reflectie week 3:**
-
-<!-- Wat ging goed, wat kan beter, wat heb je geleerd? -->
-
-...
+cmd m was nog moeiljk te vinden soms (ik denk dat dat op zn eigen laptop natuurlijk beter zou gaan, maar om het toch universeel goed bruikbaar te laten zijn ga ik de toets toch aanpassen naar iets anders.)
 
 ---
 
@@ -164,30 +165,32 @@ Verder zou hij wel misschien meerdere kleuren willen gebruiken, en dus een aanpa
 
 **To do:**
 
-- [ ] Laatste bugs oplossen
-- [ ] Gebruikerstest met finale versie
-- [ ] Toetsenbordbediening controleren en verbeteren
-- [ ] Consistentie in layout en structuur verbeteren
+- [x] Laatste bugs oplossen
+- [x] Gebruikerstest met finale versie
 
 **Gebruiker getest?**
 
-- [ ] Ja
+- [x] Ja
 - [ ] Nee
 
-**Feedback gebruiker:**
+**Feedback Roger:**
 
-<!-- Wat vond hij goed / wat werkte niet? -->
-
-...
-
-**Aanpassingen n.a.v. feedback:**
-
-<!-- Wat heb je aangepast op basis van de test? -->
+Tevreden! Eenvoudig om mee te werken. laatste bugs van vorige week waren goed opgelost! Menu's zijn makkelijker tabbaar.
 
 ...
 
-**Reflectie week 4:**
+## 🔴Reflectie
 
-<!-- Wat ging goed, wat kan beter, wat heb je geleerd? -->
+Als ik langer de tijd had gehad dan..:
+
+- had ik misschien met speech to tekst nog iets verwerkt
+- had ik de notities ook opgeslagen net als de markeringen
+- had ik de inhoudsopgave verbeterd
+- had ik het ook mogelijk gemaakt om woorden alleen te markeren ipv zinnen (ivm begrippen)
+
+In de laatste week brak mijn hele code. Waardoor ik bijna anderhalve dag bezig was met het oplossen ervan en ben ik nodige tijd verloren om bepaalde dingen nog extra te doen van het lijstje hierboven.
+
+Gelukkig staat de basis er wel, en was Roger erg tevreden door de simpliciteit en ikzelf ben ook nogsteeds erg trots met wat ik neer heb kunnen zetten.
+Het was bijzonder om te ontwerpen voor echt 1 iemand specifiek. Zo kon je heerlijk diep duiken in zijn behoeftes en kon je helemaal losgaan met alle mogelijkheden.
 
 ...
